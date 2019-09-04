@@ -6,11 +6,58 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Portfolio</title>
   <link rel="stylesheet" type="text/css" href="css/reset.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="css/common.css">
+  <link rel="stylesheet" type="text/css" href="css/header.css">
+  <link rel="stylesheet" type="text/css" href="css/section.css">
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/textillate.js"></script>
   <script type="text/javascript" src="js/index.js"></script>
 </head>
 <body>
-  <div id="hello">Hello World</div>
+  <div class="slider">
+    <div class="slider__item" style="display: none">
+      <img src="images/witch.jpg" alt="">
+    </div>
+    <div class="slider__item" >
+      <img src="images/room.jpg" alt="">
+    </div>
+  </div>
+  <header class="portfolio" id="portfolio">
+      <div class="portfolio__titles">
+        <h2 class="portfolio__titles__title" data-in-effect="fadeInDown" data-in-shuffle="true">Portfolio</h2>
+        <nav class="portfolio__titles__navigations" style="display: none">
+          <a href="#about" class="js-spanize">About</a>
+          <a href="#works" class="js-spanize">Works</a>
+          <a href="#magic" class="js-spanize">Magic</a>
+        </nav>
+      </div>
+  </header>
+  <section id="about">
+    <div class="about-book">
+        <div class="about-book__inbox">
+        <ul>
+          <li class="fadein" data-in-effect="fadeInRight" data-in-shuffle="true">Name:</li>
+          <li class="fadein" data-in-effect="fadeInRight" data-in-shuffle="true">Keita Kanao</li>
+          <li class="fadein" data-in-effect="fadeInRight" data-in-shuffle="true">Career:</li>
+          <li class="fadein" data-in-effect="fadeInRight" data-in-shuffle="true">2018/3</li>
+          <li class='font-small fadein' data-in-effect="fadeInRight" data-in-shuffle="true">兵庫県立大学 工学部 卒業</li>
+          <li class="fadein" data-in-effect="fadeInRight" data-in-shuffle="true">2019/7</li>
+          <li class='font-small fadein' data-in-effect="fadeInRight" data-in-shuffle="true">web系制作会社 退社</li>
+          <li class="fadein" data-in-effect="fadeInRight" data-in-shuffle="true">2019/8 </li>
+          <li class='font-small fadein' data-in-effect="fadeInRight" data-in-shuffle="true">TECH::EXPART 56期 卒業</li>
+          <li class="fadein" data-in-effect="fadeInRight" data-in-shuffle="true">現在</li>
+          <li class='font-small fadein' data-in-effect="fadeInRight" data-in-shuffle="true">セブにて語学学校に従事</li>
+          <li class='font-small fadein' data-in-effect="fadeInRight" data-in-shuffle="true">兼 フリーランスエンジニア</li>
+        </ul>
+        </div>
+      </div>
+  </section>
+  <section>
+    <div class="section-title" id="works">Works</div>
+  </section>
+  <!-- <section>
+    <div class="section-title" id="magic">Magic</div>
+  </section> -->
 </body>
 </html>
