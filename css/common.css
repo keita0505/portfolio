@@ -21,7 +21,7 @@ header,section{
   background-color: rgba(0,0,0,.7);
 }
 section{
-  /* display: none; */
+  display: none;
 }
 /* 背景スライダー設定 */
 .slider{
