@@ -83,3 +83,6 @@
           transform: rotateY(-185deg) translateZ(0px);
   background-color: #C47600;
 }
+.fadein{
+  display: none;
+}
