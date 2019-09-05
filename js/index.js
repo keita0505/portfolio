@@ -32,18 +32,12 @@ $(function(){
 })
 // セクション01
 $(function(){
-  var index = 0
   $(".about-book").click(function(){
     $(this).toggleClass("active")
-    if (index === 0) {
-      $('.fadein').textillate();
-      index += 1
-    } else{
-      if($(this).hasClass('active')){
-        $(".fadein").fadeIn(3000)
-      } else {
-        $(".fadein").fadeOut()
-      }
+    if($(this).hasClass('active')){
+      $(".fadein").fadeIn(3000)
+    } else {
+      $(".fadein").fadeOut()
     }
   })
 })
