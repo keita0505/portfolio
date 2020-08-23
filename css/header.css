@@ -8,6 +8,13 @@
   transform: translateX(-30%) translateY(-50%);
   text-align: center;
 }
+.is-fixed  {
+  position:  fixed;
+  transform: translateX(-30%) translateY(10%);
+  top: 0;
+  z-index: 2;
+}
+
 .portfolio__titles__title{
   font-size: 80px;
   color: rgba(0,0,0,0);

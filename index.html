@@ -30,12 +30,12 @@
         <nav class="portfolio__titles__navigations" style="display: none">
           <a href="#about" class="js-spanize">About</a>
           <a href="#works" class="js-spanize">Works</a>
-          <a href="#magic" class="js-spanize">Magic</a>
+          <!-- <a href="#Access" class="js-spanize">Access</a> -->
         </nav>
       </div>
   </header>
-  <section id="about">
-    <div class="about-book">
+  <section id="about" class = "section--about">
+    <!-- <div class="about-book">
         <div class="about-book__inbox">
         <ul>
           <li class="fadein">Name:</li>
@@ -52,41 +52,137 @@
           <li class='font-small fadein' >兼 フリーランスエンジニア</li>
         </ul>
         </div>
-      </div>
-  </section>
-  <section id="works">
-    <ul class="cards">
-      <li class="cards__card">
-        <div class="cards__card__imaage">
-          <img src="" alt="">
+      </div> -->
+    <ul class="about__boxes">
+      <li class="about__box">
+        <div class="about__box__title">
+          <h2>Career</h2>
         </div>
-        <div class="cards__card__texts">
-          <h2 class="cards__card__texts__title">ChatSpace</h2>
-          <p class="cards__card__texts__detail"></p>
-        </div>
-      </li>
-      <li class="cards__card">
-        <div class="cards__card__imaage">
-          <img src="" alt="">
-        </div>
-        <div class="cards__card__texts">
-          <h2 class="cards__card__texts__title">Freemarket Imitration</h2>
-          <p class="cards__card__texts__detail"></p>
+        <div class="about__box__text">
+          <p>
+            College: <br>
+              University Of Hyogo<br>
+            Company: <br>
+              Plat in (as Engineer)<br>
+              *Part-time-job<br>
+              First English Global College<br>
+              *Intern Staff<br>
+          </p>
         </div>
       </li>
-      <li class="cards__card">
-        <div class="cards__card__imaage">
-          <img src="" alt="">
+      <li class="about__box">
+        <div class="about__box__title">
+          <h2>Skills</h2>
         </div>
-        <div class="cards__card__texts">
-          <h2 class="cards__card__texts__title">ざぶとん</h2>
-          <p class="cards__card__texts__detail"></p>
+        <div class="about__box__text">
+          <p>
+            HTML / CSS ( haml / sass )<br>
+            JavaScript / JQuery<br>
+            Ruby / Ruby on Rails<br>
+            MySQL / AWS / Git<br><br>
+            * But Only Studying...
+          </p>
+        </div>
+      </li>
+      <li class="about__box">
+        <div class="about__box__title">
+          <h2>Introduction</h2>
+        </div>
+        <div class="about__box__text">
+          <p>
+            I'm Keita Kanao<br>
+            My dream is <br>
+            "Work with only my PC"<br>
+            Thank you for<br>
+            coming my portfolio site
+          </p>
         </div>
       </li>
     </ul>
   </section>
+  <section id="works" class="section--works">
+    <ul class="cards">
+      <li class="cards__card portfolio-site">
+        <div class="cards__card__image">
+          <img src="images/portfolio.png" alt="">
+        </div>
+        <div class="cards__card__texts">
+          <h2 class="cards__card__texts__title">portfolio</h2>
+          <p class="cards__card__texts__detail">
+            ー光と影と魔法の世界へー<br>
+          </p>
+        </div>
+      </li>
+      <li class="cards__card">
+        <div class="cards__card__image">
+          <img src="images/free_market.png" alt="">
+        </div>
+        <div class="cards__card__texts">
+          <h2 class="cards__card__texts__title">Freemarket Imiation</h2>
+          <p class="cards__card__texts__detail">
+            フリマアプリ模倣サイト<br>
+          </p>
+        </div>
+      </li>
+      <li class="cards__card">
+        <div class="cards__card__image">
+          <img src="images/chat-space.png" alt="">
+        </div>
+        <div class="cards__card__texts">
+          <h2 class="cards__card__texts__title">chat-space</h2>
+          <p class="cards__card__texts__detail">
+            チャットコミュニティサイト<br>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <!-- モーダルウィンドウ  -->
+  <div class="modal" style="display: none;">
+    <div class="modal__contents">
+      <div class="modal__contents__title">portfolio</div>
+      <div class="modal__contents__under">
+        <div class="slide__main-image">
+          <img src="images/portfolio.png" alt="">
+        </div>
+        <ul class="slide__images">
+          <li class="slide__images__image">
+            <img src="images/portfolio.png" alt="">
+          </li>
+          <li class="slide__images__image">
+            <img src="images/portfolio_3page.png" alt="">
+          </li>
+          <li class="slide__images__image">
+            <img src="images/portfolio_2page.png" alt="">
+          </li>
+        </ul>
+        <div class="slide__texts">
+          <div class="slide__texts__text">
+            <h2>＜テーマ＞ 光と影と魔法</h2>
+            <p>
+              ＜目的＞<br>
+              今回デザイナー志望させていただくにあたり<br>
+              作成した作品となります。<br><br>
+
+              制作期間：1週間<br><br>
+
+              ＜PR＞<br>
+              デザインにおいて重要視していることは<br>
+              「統一感」です。<br><br>
+
+              アクションは「光」<br>
+              全体的な雰囲気は「影」、<br>
+              幻想的なデザインに仕上げています。<br>
+            </p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <!-- <section>
-    <div class="section-title" id="magic">Magic</div>
+    <div id="Access" class="section--access">Access</div>
   </section> -->
 </body>
 </html>
